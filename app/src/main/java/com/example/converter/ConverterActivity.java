@@ -17,12 +17,12 @@ public class ConverterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button convertButton;
-        Button exitButton;
+       // Button exitButton;
         final EditText originalUnitField;
         final TextView convertedUnitField;
 
         convertButton = findViewById(R.id.convert);
-        exitButton = findViewById(R.id.exit);
+        //exitButton = findViewById(R.id.exit);
         originalUnitField = findViewById(R.id.originalUnit);
         convertedUnitField = findViewById(R.id.convertedUnit);
 
@@ -31,9 +31,9 @@ public class ConverterActivity extends AppCompatActivity {
             convertedUnitField.setText(String.valueOf(convert * MILECONSTANT));               //Just put the formula here accordingly!!!
             convertedUnitField.setTextColor(Color.BLUE);
         });
-        exitButton.setOnClickListener(view -> {
-            finish();
-            System.exit(0);
-        });
+//        exitButton.setOnClickListener(view -> {
+//            finish();
+//            System.exit(0);
+//        });
     }
 }
