@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="titleApp">Converter</string>
+    <string name="firstunit_label">Miles</string>
+    <string name="secondunit_label">Kilometers</string>
+    <string name="convert">Convert</string>
+    <string name="exit">Exit</string>
+    
+</resources>
