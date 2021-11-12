@@ -28,7 +28,7 @@ public class ConverterActivity extends AppCompatActivity {
 
         convertButton.setOnClickListener(v -> {
             double convert = Double.parseDouble(originalUnitField.getText().toString());
-            convertedUnitField.setText(String.valueOf(convert * MILECONSTANT));               //Just put the formula here accordingly!!!
+            convertedUnitField.setText(String.valueOf(convert * MILECONSTANT));   //Calculations
             convertedUnitField.setTextColor(Color.BLUE);
         });
         exitButton.setOnClickListener(view -> {
